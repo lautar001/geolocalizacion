@@ -42,3 +42,36 @@ function onError(error){
     console.log("Se ha producido un error y lo hemos gestionado")
     console.error(error)
 }
+
+    marker.push(
+        new google.maps.Marker({
+            position:{
+                lat:-34.6103764,
+                lng: -58.3622067
+            },
+            map,
+            title: "Puerto Madero"
+        })
+    )
+
+    marker.push(
+        new google.maps.Marker({
+            position:{
+                lat: -41.134258,
+                lng:  -71.308525
+            },
+            map,
+            title: "Bariloche"
+        })
+    )
+
+marker.push(
+    new google.maps.Marker({
+        position:{
+            lat:  -50.3402,
+            lng:  -72.2614
+        },
+        map,
+        title: "Calafate"
+    })
+)
